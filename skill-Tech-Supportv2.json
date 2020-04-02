@@ -1,0 +1,1418 @@
+{
+  "intents": [
+    {
+      "intent": "Identify_slow_machine",
+      "examples": [
+        {
+          "text": "My computer takes too long to start"
+        },
+        {
+          "text": "My computer is taking too long to load applications"
+        },
+        {
+          "text": "long load times"
+        },
+        {
+          "text": "looks like my pc is running slow"
+        },
+        {
+          "text": "My computer is slow"
+        },
+        {
+          "text": "this thing is take long to load"
+        },
+        {
+          "text": "my system is take long to laod"
+        },
+        {
+          "text": "my plc moving too slow"
+        },
+        {
+          "text": "my pc is taking a long period of time to load"
+        },
+        {
+          "text": "my pc is taking a long period of time"
+        },
+        {
+          "text": "my pc is running slow"
+        }
+      ],
+      "description": "This intent is triggered when a user states that there is a problem with their unit"
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "This is so cool"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "thanks bye"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Cya later"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "Identify_software_issue",
+      "examples": [],
+      "description": "figures out keywords for software issues"
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "no thank you"
+        },
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "You do not seem smart"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "Identify_hardware_issue",
+      "examples": [
+        {
+          "text": "my pc is freezing alot"
+        },
+        {
+          "text": "i have a problem. My pc is running slow. Specifically the CPU is running hot"
+        },
+        {
+          "text": "Computer attempts to boot but returns a \"file not found\" error"
+        },
+        {
+          "text": "Overall strange behavior from the computer"
+        },
+        {
+          "text": "Frequent error messages while running software"
+        },
+        {
+          "text": "Repeated program crashes or disk errors."
+        },
+        {
+          "text": "clicking or humming from the drive"
+        },
+        {
+          "text": "peripherals appear to stop working"
+        },
+        {
+          "text": "series of beeps you’ve never heard before during system startup"
+        },
+        {
+          "text": "RAM ISN’T RECOGNIZED BY THE COMPUTER"
+        },
+        {
+          "text": "weird beeps coming from the machine when you first turn it on"
+        },
+        {
+          "text": "CORRUPTED FILES"
+        },
+        {
+          "text": "Random Crashes"
+        },
+        {
+          "text": "my pc is running slow and i thin it might my CPU temperature"
+        },
+        {
+          "text": "Overall slowness"
+        },
+        {
+          "text": "Frequent freezing or the blue screen of death"
+        },
+        {
+          "text": "corrupted file"
+        },
+        {
+          "text": "missing file"
+        },
+        {
+          "text": "Errors upon startup"
+        },
+        {
+          "text": "power serge"
+        },
+        {
+          "text": "turns off immediately"
+        },
+        {
+          "text": "running hot"
+        },
+        {
+          "text": "temperature is high"
+        },
+        {
+          "text": "My pc shuts of immediately"
+        },
+        {
+          "text": "I got power surge recently"
+        },
+        {
+          "text": "freeze during the logo screen"
+        },
+        {
+          "text": "computer gets really hot"
+        },
+        {
+          "text": "screen freezes after being on for a few minutes"
+        },
+        {
+          "text": "Overclocking or Stress"
+        },
+        {
+          "text": "CPU gets really hot"
+        },
+        {
+          "text": "I got power surge recently and turns off immediately"
+        },
+        {
+          "text": "i recently did some overclocking"
+        },
+        {
+          "text": "my computer is running hot"
+        },
+        {
+          "text": "RANDOM REBOOTS"
+        },
+        {
+          "text": "SPORADIC FREEZES"
+        },
+        {
+          "text": "You might suddenly find that files which you access and use frequently are corrupted and cannot be opened."
+        },
+        {
+          "text": "Incorrect System RAM Display"
+        }
+      ],
+      "description": "This intent helps the computer recognise that the user's system is running slow due to a hardware issue"
+    },
+    {
+      "intent": "Agree_to_Appointment",
+      "examples": [
+        {
+          "text": "pc is freezing and yes"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Book_Appointment",
+      "examples": [
+        {
+          "text": "set appointment"
+        },
+        {
+          "text": "make an appointment"
+        },
+        {
+          "text": "book me an appointment"
+        },
+        {
+          "text": "sure"
+        },
+        {
+          "text": "no"
+        },
+        {
+          "text": "nah"
+        },
+        {
+          "text": "yes book an appointment"
+        },
+        {
+          "text": "Friday at 4pm"
+        },
+        {
+          "text": "yes please book"
+        },
+        {
+          "text": "id like to book appointment on Thursday at 5pm"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Install_java",
+      "examples": [
+        {
+          "text": "i  need help installing java"
+        },
+        {
+          "text": "\"yes\""
+        },
+        {
+          "text": "i need your help installing java on my computer"
+        },
+        {
+          "text": "\"no\""
+        },
+        {
+          "text": "install Java"
+        },
+        {
+          "text": "installing java"
+        },
+        {
+          "text": "java"
+        },
+        {
+          "text": "java help"
+        },
+        {
+          "text": "java installation"
+        },
+        {
+          "text": "set up java"
+        },
+        {
+          "text": "setup java"
+        },
+        {
+          "text": "I need help installing Java"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Identify_problem",
+      "examples": [
+        {
+          "text": "i need your help, my pc is running slow"
+        },
+        {
+          "text": "my pc is not"
+        },
+        {
+          "text": "my machine is not"
+        },
+        {
+          "text": "my laptop is not"
+        },
+        {
+          "text": "my CPU is not"
+        },
+        {
+          "text": "is not"
+        },
+        {
+          "text": "i'm having trouble with my computer"
+        },
+        {
+          "text": "can't"
+        },
+        {
+          "text": "having issue"
+        },
+        {
+          "text": "hey i have a problem"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello Agent"
+        }
+      ],
+      "description": "Greet the bot."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "hardware_appointment",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "ye",
+            "ya",
+            "yah",
+            "yeh",
+            "sure",
+            "kk",
+            "k"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "na",
+            "nope",
+            "no thank you",
+            "nah"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "OS",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "MacOS",
+          "synonyms": [
+            "mac",
+            "apple",
+            "macos",
+            "macbook"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Windows 10",
+          "synonyms": [
+            "windows",
+            "pc"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "run_in_os",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Yes",
+          "synonyms": [
+            "yes",
+            "y",
+            "ya"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "No",
+          "synonyms": [
+            "no",
+            "n",
+            "nah"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "slot",
+      "parent": "node_2_1585245986853",
+      "dialog_node": "slot_10_1585528573205",
+      "previous_sibling": "handler_1_1585528572883"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1585245986853",
+      "disabled": true,
+      "dialog_node": "response_10_1585784032456",
+      "previous_sibling": "node_10_1585784862458"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1585245986853",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1585528572883",
+      "previous_sibling": "response_10_1585784032456"
+    },
+    {
+      "type": "standard",
+      "title": "Yes",
+      "output": {
+        "generic": [
+          {
+            "title": "Good to know! What Operating System do you have?",
+            "options": [
+              {
+                "label": "MacOS",
+                "value": {
+                  "input": {
+                    "text": "mac"
+                  }
+                }
+              },
+              {
+                "label": "Windows",
+                "value": {
+                  "input": {
+                    "text": "windows"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1585245986853",
+      "context": {},
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@run_in_os:Yes",
+      "dialog_node": "node_10_1585784862458",
+      "previous_sibling": "node_8_1585784398339"
+    },
+    {
+      "type": "standard",
+      "title": "No",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay great! Now you're all set up to start programming in Java."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1585245986853",
+      "conditions": "@run_in_os:No",
+      "dialog_node": "node_8_1585784398339"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sure, just follow these instructions:\n\nFirst, download the JDK for your operating system from this link: https://www.oracle.com/java/technologies/javase-jdk8-downloads.html \n\nSecondly, you can download Eclipse IDE here: https://www.eclipse.org/downloads/packages/installer\n\nDo you need to run your Java code through your operating system (not through Eclipse)?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1585174144406",
+      "disabled": true,
+      "dialog_node": "response_2_1585528028107",
+      "previous_sibling": "slot_4_1585528595608"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1585174144406",
+      "dialog_node": "slot_4_1585528595608",
+      "previous_sibling": "handler_2_1585528595308"
+    },
+    {
+      "type": "standard",
+      "title": "Run in OS",
+      "output": {
+        "generic": [
+          {
+            "title": " Do you need to run your Java code through your operating system (not through Eclipse)?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "\"yes\""
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "\"no\""
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1585174144406",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "",
+      "dialog_node": "node_2_1585245986853",
+      "digress_out": "allow_all_never_return",
+      "previous_sibling": "response_2_1585528028107"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_9_1585174144406",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1585528595308"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1585528595608",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1585528595617",
+      "previous_sibling": "handler_10_1585528595617"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_4_1585528595608",
+      "event_name": "input",
+      "dialog_node": "handler_10_1585528595617"
+    },
+    {
+      "type": "standard",
+      "title": "Windows",
+      "parent": "node_10_1585784862458",
+      "context": {},
+      "conditions": "@OS:(Windows 10) && $windows",
+      "dialog_node": "node_2_1585785788754",
+      "previous_sibling": "response_8_1585787774255"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Good to know! What Operating System do you have?",
+            "options": [
+              {
+                "label": "MacOS",
+                "value": {
+                  "input": {
+                    "text": "mac"
+                  }
+                }
+              },
+              {
+                "label": "Windows",
+                "value": {
+                  "input": {
+                    "text": "windows"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1585784862458",
+      "context": {},
+      "disabled": true,
+      "dialog_node": "response_8_1585787774255"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "And at what time?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1585523165938",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1585523165941",
+      "previous_sibling": "handler_4_1585523165941"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1585523165938",
+      "context": {
+        "time": "@sys-time"
+      },
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_4_1585523165941"
+    },
+    {
+      "type": "standard",
+      "title": "Dialog for Software Issue",
+      "parent": "node_9_1585174595060",
+      "dialog_node": "node_3_1585437610962",
+      "previous_sibling": "node_2_1585366622412"
+    },
+    {
+      "type": "standard",
+      "title": "Dialog for Hardware Issue",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Usually when this happens, it's because of hardware failure. For any hardware repair, we recommend heading down to our office.  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 3000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "title": "Would you like to book an appointment?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "\"yes\""
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "\"no\""
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1585174595060",
+      "conditions": "#Identify_hardware_issue",
+      "dialog_node": "node_2_1585366622412",
+      "digress_out": "allow_all_never_return"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What date would you like?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1585523022410",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1585523022419",
+      "previous_sibling": "handler_9_1585523022419"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1585523022410",
+      "context": {
+        "date": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_9_1585523022419"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_2_1585366622412",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1585526921939",
+      "previous_sibling": "node_1_1585527971255"
+    },
+    {
+      "type": "standard",
+      "title": "Decline_Appointment",
+      "output": {
+        "generic": [
+          {
+            "time": 3000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "No problem! If you have any other questions, please feel free to ask away, otherwise, have a good one!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1585366622412",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "Anything else"
+      },
+      "conditions": "@hardware_appointment:no",
+      "dialog_node": "node_1_1585527971255",
+      "previous_sibling": "node_6_1585527425810"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1585366622412",
+      "dialog_node": "slot_3_1585526922381",
+      "previous_sibling": "handler_2_1585526921939"
+    },
+    {
+      "type": "standard",
+      "title": "Accept_Appointment",
+      "output": {
+        "generic": [
+          {
+            "time": 5000,
+            "typing": true,
+            "response_type": "pause"
+          }
+        ]
+      },
+      "parent": "node_2_1585366622412",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1585461229012"
+      },
+      "conditions": "@hardware_appointment:yes",
+      "dialog_node": "node_6_1585527425810"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1585461229012",
+      "variable": "$date",
+      "dialog_node": "slot_2_1585523022410",
+      "previous_sibling": "handler_1_1585523021993"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1585461229012",
+      "variable": "$time",
+      "dialog_node": "slot_3_1585523165938",
+      "previous_sibling": "slot_2_1585523022410"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What date and time do you prefer to have the appointment?"
+              },
+              {
+                "text": "What's the date and time you'd like to book the appointment?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1585461229012",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1585523021993"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1585526922381",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1585526922391",
+      "previous_sibling": "handler_10_1585526922391"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_3_1585526922381",
+      "event_name": "input",
+      "dialog_node": "handler_10_1585526922391"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1585528573205",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1585528573215",
+      "previous_sibling": "handler_3_1585528573215"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1585528573205",
+      "context": {
+        "undefined": "$contains_yes"
+      },
+      "conditions": "$contains_yes",
+      "event_name": "input",
+      "dialog_node": "handler_3_1585528573215"
+    },
+    {
+      "type": "frame",
+      "title": "Book Appointment",
+      "output": {
+        "generic": [
+          {
+            "time": 8000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Alright! your appointment has been booked for: \n @sys-date\n@sys-time"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Book_Appointment",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1585461229012",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_9_1585174144406",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "General_Greetings ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hey there! What can I help you with?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_1_1585780856567",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Dialog for Slow Computer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If your system is running slow, it could be due to more than one thing. Can you let me know in more detail what you are experiencing?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Identify_slow_machine",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1585174595060",
+      "previous_sibling": "node_1_1585440204691"
+    },
+    {
+      "type": "standard",
+      "title": "Java Install",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sure, just follow these instructions:\n\nFirst, download the JDK for your operating system from this link: <a href =\"https://www.oracle.com/java/technologies/javase-jdk8-downloads.html\", target=\"_blank\">JDK Install</a> \n\nSecondly, you can download Eclipse IDE here: <a href =\"https://www.eclipse.org/downloads/packages/installer\", target=\"_blank\">Eclipse Install</a> \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1585245986853"
+      },
+      "conditions": "#Install_java",
+      "digress_in": "not_available",
+      "dialog_node": "node_9_1585174144406",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_9_1585174595060"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am sorry, but I do not understand what you mean."
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_9_1585524751329",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Identify Problem",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No worries. What seems to be the problem?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Identify_problem",
+      "dialog_node": "node_1_1585440204691",
+      "previous_sibling": "node_1_1585780856567"
+    },
+    {
+      "type": "standard",
+      "title": "Ending",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No problem! If you have any other questions, please feel free to ask away, otherwise, have a good one!"
+              },
+              {
+                "text": "Have a great day!"
+              },
+              {
+                "text": "Adios!"
+              },
+              {
+                "text": "Byee!"
+              },
+              {
+                "text": "Cya!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#General_Ending",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1585524751329",
+      "previous_sibling": "node_2_1585461229012"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, I am Tech Bot, your instant online tech support agent! How may I help you today?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "yes"
+    }
+  ],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Tech Support",
+  "language": "en",
+  "description": ""
+}
